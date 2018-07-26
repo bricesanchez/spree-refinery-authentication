@@ -20,3 +20,4 @@ tmp
 .gems
 .ruby-version
 .rbenv-gemsets
+.idea/
