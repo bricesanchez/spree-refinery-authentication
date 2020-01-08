@@ -1,3 +1,5 @@
+require_relative '../../action_controller_base_decorator.rb'
+
 Spree::Admin::UserSessionsController.class_eval do
   skip_before_action :detect_spreefinery_single_sign_on!, only: [:create]
   after_action :detect_spreefinery_single_sign_on!, only: [:create]
