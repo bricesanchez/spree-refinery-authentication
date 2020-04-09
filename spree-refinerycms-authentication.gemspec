@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^spec/})
   s.require_paths = ["lib"]
 
-  s.add_runtime_dependency 'spree_core', '~> 3.0'
+  s.add_runtime_dependency 'spree_core', '>= 3', '< 5'
   s.add_runtime_dependency 'refinerycms-core', ['>= 3.0.6', '< 5.0']
   s.add_runtime_dependency 'zilch-authorisation', '>= 0.0.1'
   s.add_runtime_dependency 'decorators', '~> 2.0'
